@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: MIT
 
 {
+    "main": "ui/app-window.slint",
     "library-paths": {
         "BLogicA": "../blogica/ui/blogica.slint",
         "BLogicB": "../blogicb/ui/blogicb.slint"
