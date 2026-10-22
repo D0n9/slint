@@ -9,6 +9,9 @@ When a Slint release changes the behavior of the language,
 the change applies only if your edition is that release or newer.
 Newer versions of Slint keep compiling your project the way your edition's release did,
 until you raise the edition.
+When a newer edition changes the behavior, Slint warns about the project file.
+The Rust `slint!` macro shows the warning at the macro.
+Review the change, then raise the edition.
 You can use new features with any edition.
 
 ## Choosing the Edition
